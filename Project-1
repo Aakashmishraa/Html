@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="project1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">      <!-- cdn ( content delibery network ) helps in connecting with paas wala server-->
+</head>
+                         
+<body>
+    <header>                                                      <!--div tag is to group HTML elements together and apply CSS styles to many elements at once-->
+        <div class="navbar">                                    <!-- (class attribute) is liye use hua h taki CSS me styling karne ke liye( class selector )ka use kar sake-->
+                <div class="nav-logo border">                           <!--Navbar logo use kiye gya h pehchanne ke liye ki ye navbar ka part h   and (nav-logo is used as outer logo and there is inner logo as well)-->
+                    <div class="logo"></div>                     <!--navbar ke andr chahiye logo to uske tag ke andr hi logo include karna h-->
+                </div>
+                <div class="nav-address border">                   
+                    <p class="add-first">Deliver to</p>
+                    <div class="add-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="add-second">India</p>
+                    </div>
+
+                    </div>
+                  <div class="nav-search">
+                    <select class="search-select">
+                        <option>All</option>                          <!--for niche ke taraf option (select) tag karenge kyuki  hame select chahiye aur (option) tag kyuki hame option chahiye-->
+                    </select>
+                    <input placeholder="Search Amazon" class="search-input">                             <!--paceholder for long search baar ke liye-->
+                  <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>                 <!--eek hota h parent container aur eek hota h child container-->
+                  </div>
+                </div>
+                <div class="nav-country">
+                    <div class="country-icon">
+                        <i class="fa-solid fa-globe"></i></div>
+                        <select class="country-select border">
+                    <option>EN</option>
+                </select>
+                </div>
+                <div class="nav-signin border">
+                    <p><span>Hello, sign in</span></p>
+                    <div class="nav-second-main">
+                    <p class="nav-second">Account & Lists</p>
+                    <select class="nav-return-icon">
+                        <option></option>
+                    </select>
+                    </div>
+                </div>
+    
+                <div class="nav-return border">
+                    <p><span>Returns</span></p>
+                    <p class="nav-second">& Orders</p>
+                    
+                </div>
+                <div class="nav-cart border">
+                    <i class="fa-solid fa-cart-shopping"></i>                  <!--agar sare icon ka size sirif change karna h eek tag ke andr to ye selector use hoga- ( pehle parent tag ka naam ) phir(i) -->
+                    Cart
+                </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-All">
+
+                        <div class ="panel-All-logo">
+                            <i class="fa-solid fa-bars"></i>All
+                        </div>
+                    </div>
+                    <div class="panel-ops">
+                     <p>Today's Deals</p>
+                     <p>Customer Service</p>
+                     <p>Registry</p>
+                     <p>Gift Cards</p>
+                     <p>sell</p>
+                    </div>
+                    </div>
+                </div>
+                    
+                                                 
+    </header>
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to go to amazon.in</a></p>
+        </div>
+
+    </div>
+    <div class="shop-section">
+        <div class="box1 box">   
+            <div class="box-content">                                     <!--mutiple border ya box apply karne ke liye last me likhke CSS me (.box) usko likh dena h -->
+       <h2>Clothes</h2>
+       <div class="box-img" style="background-image: url('box1_image.jpg');"></div>                              <!--background image directly yhi par add kar sakte hein-->
+        <p>Shop now</p>                                                                                           <!--yha par html me image add karenge image pe single coat aaega('') -->                                  
+        </div> 
+        </div>
+        
+        <div class="box2 box">
+             <div class="box-content">                                 
+            <h2>Clothes</h2>
+            <div class="box-img" style="background-image: url('box2_image.jpg');"></div>                              
+             <p>Shop now</p>                                                                                                                      
+             </div> 
+
+        </div>                                               
+        <div class="box3 box"> 
+            <div class="box-content">                                     
+            <h2>Health & personal care</h2>
+            <div class="box-img" style="background-image: url('box3_image.jpg');"></div>                             
+             <p>Shop now</p>                                                                                                                      
+             </div> </div>
+        <div class="box4 box">
+            <div class="box-content">                                   
+                <h2>Health & personal care</h2>
+                <div class="box-img" style="background-image: url('box4_image.jpg');"></div>                              
+                 <p>Shop now</p>                                                                                                                        
+                 </div> 
+        </div>
+                 <div class="box1 box">   
+                    <div class="box-content">                                     <!--mutiple border ya box apply karne ke liye last me likhke CSS me (.box) usko likh dena h -->
+               <h2>Beauty picks</h2>
+               <div class="box-img" style="background-image: url('box5_image.jpg');"></div>                              <!--background image directly yhi par add kar sakte hein-->
+                <p>Shop now</p>                                                                                           <!--yha par html me image add karenge image pe single coat aaega('') -->                                  
+                </div> 
+                </div>
+                
+                <div class="box2 box">
+                     <div class="box-content">                                 
+                    <h2>Health & personal care</h2>
+                    <div class="box-img" style="background-image: url('box6_image.jpg');"></div>                              
+                     <p>Shop now</p>                                                                                                                      
+                     </div> 
+        
+                </div>                                               
+                <div class="box3 box"> 
+                    <div class="box-content">                                     
+                    <h2>New arrivals in Toys</h2>
+                    <div class="box-img" style="background-image: url('box7_image.jpg');"></div>                             
+                     <p>Shop now</p>                                                                                                                      
+                     </div> </div>
+                <div class="box4 box">
+                    <div class="box-content">                                   
+                        <h2>Discover fashion trends</h2>
+                        <div class="box-img" style="background-image: url('box8_image.jpg');"></div>                              
+                         <p>Shop now</p>                                                                                                                        
+                         </div> 
+        </div>
+    </div>
+</body>
+</html>
